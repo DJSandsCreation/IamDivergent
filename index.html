@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>DJS - Divergent</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand order-1" href="#"><i class="fab fa-dyalog"></i><strong>J</strong><i
+          class="fas fa-strikethrough"></i>
+        Creations</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#factions">Factions</a>
+          <a class="nav-item nav-link" href="#events">Events</a>
+          <a class="nav-item nav-link" href="#characters" tabindex="-1" aria="true">Characters</a>
+        </div>
+      </div>
+    </div>
+  </nav> <!-- nav bar end-->
+
+  <!-- jumbotron -->
+  <div id="jumbo" class="jumbotron jumbotron-fluid bg-danger text-white">
+    <div class="container text-sm-center pt-5">
+      <h1 class="display-4">
+        The Aptitude Test 2020</h1>
+      <p class="lead">Are you smart like the Erudite, honest like the Candor, selfless like the Abnegation, kind like
+        the Amity, or brave like the Dauntless?</p>
+      <!-- callout Button group-->
+      <div class="btn-group" role="group" aria-label="callout button">
+        <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#formModalCenter">Register
+          Now!!</button>
+        <a class="btn btn-dark btn-lg" href="#events">Events</a>
+      </div><!-- callout Button group end-->
+
+    </div>
+  </div> <!-- jumbotron end -->
+  <!-- image card city 1-->
+  <div class="container">
+    <div class="card mb-3">
+      <img src="img/d.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text text-dark">Chicago, Illinois is the city where the story of the Divergent Trilogy takes
+          place. The Chicago in Divergent is in the future and is very dilapidated and worn out. </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div><!-- image card city 1 end-->
+
+  <div class="container pt-4">
+    <!-- about -->
+    <div class="row">
+      <div class="col-lg order-lg-1">
+        <h3 class="mb-4">The Hub</h3>
+        <img class="mb-4 img-fluid rounded d-none d-sm-block" src="img/city.JPG" alt="Portland">
+        <p>The ceremony takes place in The Hub (also known as the Sears tower), the day after all sixteen year olds
+          finish their Aptitude Test. Every sixteen year old must choose one faction. Not every faction member attends
+          the ceremony, but many do</p>
+      </div>
+      <div class="col-lg">
+        <h3 class="mb-4">Examination / Test</h3>
+        <p>The Examination itself is taken by drinking a water-like serum which causes the initiate to hallucinate,
+          during the hallucination they get two choices; knives or cheese (in the book but in the movie it’s meat)</p>
+        <p>The tests are administered every year to children reaching the age of sixteen which is considered adulthood
+          in Divergent. The test cannot be administered by a member of the teenager's own faction, so the volunteer test
+          evaluators usually consist of eight Abnegation, who test the non-Abnegation teenagers, with two evaluators
+          from the other four factions to test the two Abnegation-born ones, since ten tests are taken simultaneously.
+          One non-Abnegation test evaluate is Tori, who is Dauntless and performs Tris' test.</p>
+
+      </div>
+      <div class="col-lg order-lg-1 my-auto bg-info">
+        <ul class="list-group">
+          <li class="list-group-item active my-3">The results you could have; </li>
+
+          <li class="list-group-item text-center"><a href="#factions" data-toggle="tooltip"
+              title="They are considered selfless.">Abnegation</a></li>
+
+          <li class="list-group-item text-center"><a href="#factions" data-toggle="tooltip"
+              title="They value kindness, nature, and peace.">Amity</a>
+
+          <li class="list-group-item text-center"><a href="#factions" data-toggle="tooltip" title="They feel the truth should be shared and refuse to lie, black and white
+            thinking.">Candor</a>
+
+          <li class="list-group-item text-center"><a href="#factions" data-toggle="tooltip"
+              title="They are considered brave and daring.">Dauntless</a>
+
+          <li class="list-group-item text-center"><a href="#factions" data-toggle="tooltip"
+              title="They are considered curious and intelligent.">Erudite</a>
+
+          <li class="list-group-item text-center mb-5"><a href="#factions" data-toggle="tooltip"
+              title="This is not an option ... ">Di .. ...</a>
+        </ul>
+      </div>
+    </div><!-- /about -->
+
+    <!-- factions-->
+    <h1 id="factions" class="display-4 text-center my-5 text-muted">The Factions</h1>
+    <div class="row">
+      <div class="col-md-4">
+
+        <div class="card mb-3">
+          <img src="img/Abnegation_logo.png" class="card-img-top" alt="Abnegation_logo">
+          <div class="card-body">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-secondary btn-block" data-toggle="modal" data-target="#abnegation">
+              Abnegation
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <img src="img/Amity_logo.png" class="card-img-top" alt="Amity_logo">
+          <div class="card-body">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#amity">
+              Amity
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <img src="img/Candor_logo.png" class="card-img-top" alt="Candor_logo">
+          <div class="card-body">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark btn-block text-white" data-toggle="modal" data-target="#candor">
+              Candor
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <img src="img/Erudite_logo.png" class="card-img-top" alt="Erudite_logo">
+          <div class="card-body">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#erudite">
+              Erudite
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <img src="img/Factionless.png" class="card-img-top" alt="Factionless_logo">
+          <div class="card-body">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light btn-block" data-toggle="modal" data-target="#factionless">
+              Factionless
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <img src="img/Dauntless.jpg" class="card-img-top" alt="Dauntless_logo">
+          <div class="card-body">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-warning btn-block" data-toggle="modal" data-target="#dauntless">
+              Dauntless
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div><!-- /factions -->
+
+  <!-- schedule -->
+  <h1 class="display-4 text-center my-5 text-muted" id="events">Events</h1>
+  <!-- schedule -->
+  <ul class="list-group-item list-group-item-danger">
+    <li class="list-group-item">
+      <div class="d-flex justify-content-between">
+        <h5 class="mb-1">Aptitude Test</h5>
+        <span class="badge badge-pill badge-dark p-2">01/02/2021</span>
+      </div>
+      <p class="mb-1">The Aptitude Test is a yearly assessment taken by every 16 year old.</p>
+    </li>
+    <li class="list-group-item list-group-item-warning">
+      <div class="d-flex justify-content-between">
+        <h5 class="mb-1">Choosing Ceremony</h5>
+        <span class="badge badge-pill badge-dark p-2">07/02/2021</span>
+      </div>
+      <p class="mb-1">The Choosing Ceremony is a ceremonial day observed each year at The Hub</p>
+    </li>
+    <li class="list-group-item list-group-item-primary">
+      <div class="d-flex justify-content-between">
+        <h5 class="mb-1">Simulations</h5>
+        <span class="badge badge-pill badge-dark p-2">14/02/2021</span>
+      </div>
+      <p class="mb-1">Simulations Tests: illusions created in a person's mind that are triggered by a serum.</p>
+    </li>
+    <li class="list-group-item list-group-item-success">
+      <div class="d-flex justify-content-between">
+        <h5 class="mb-1">Faction Initiation</h5>
+        <span class="badge badge-pill badge-dark p-2">01/02/2022</span>
+      </div>
+      <p class="mb-1">The initiation process is different through every faction. Some factions are stricter than others
+        regarding who, if anyone, is cut and made Factionless.</p>
+    </li>
+  </ul><!-- /schedule -->
+  <!-- callout Button group-->
+  <div class="col text-lg-center pt-3 btn-lg" role="group" aria-label="callout button">
+    <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#formModalCenter">Register
+      Now!!</button>
+  </div><!-- callout Button group end-->
+  </div><!-- /schedule -->
+
+  <!-- Characters-->
+
+  <div id="characters" class="card-section bg-light my-3">
+    <div class="inner">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card my-5">
+              <img src="img/tris.png" class="card-img-top" alt="Abnegation_logo">
+              <div class="card-body">
+
+              </div>
+              <div class="panel-group m-2" id="accordion" role="tablist" aria-multiselectable="false">
+                <div class="panel panel-default bg-warning m-1 pb-2">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <a class="panel-button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                      aria-expanded="false" aria-controls="collapseOne"><span class="plus-minus"><i
+                          class="fas fa-eye"></i></span></a>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <p class="m-5 p-1">Beatrice "Tris" Prior is the main protagonist and narrator of the Divergent
+                        series. She is a
+                        strong-willed sixteen-year-old girl who hates showing weakness. Though Tris was born in the
+                        faction Abnegation, she eventually transferred to Dauntless and must face the fact that she is
+                        Divergent. When she arrived in her new faction, she opted for a change and decided to use Tris
+                        as
+                        a nickname for Beatrice, hoping for a fresh start.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- card-body -->
+            </div>
+            <!-- card -->
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card py-3">
+              <img src="img/theo.jpg" class="card-img-top" alt="Abnegation_logo">
+              <div class="card-body">
+
+              </div>
+              <div class="panel-group m-2" id="accordion2" role="tablist" aria-multiselectable="false">
+                <div class="panel panel-default  bg-primary m-1 pb-2">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <a class="panel-button" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo"><span class="plus-minus"><i
+                          class="fas fa-eye"></i></span></a>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      <p class="m-5 p-1 text-white">Tobias Eaton, more commonly known as Four, is the deuteragonist of
+                        the
+                        Divergent trilogy. He is
+                        the son of Evelyn Johnson and Marcus Eaton. Alongside Lauren (instructor of Dauntless-born
+                        initiates), he is the instructor of the transfer initiates. He becomes the love interest of Tris
+                        Prior later on in the first book of the trilogy.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- card-body -->
+            </div>
+            <!-- card -->
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card my-5 py-5">
+              <img src="img/Official_jeanine.png" class="card-img-top" alt="Abnegation_logo">
+              <div class="card-body">
+
+              </div>
+              <div class="panel-group m-2" id="accordion3" role="tablist" aria-multiselectable="false">
+                <div class="panel panel-default bg-danger m-1 pb-2">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <a class="panel-button" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseTwo"><span class="plus-minus"><i
+                          class="fas fa-eye"></i></span></a>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                    aria-labelledby="headingThree">
+                    <div class="panel-body">
+                      <p class="m-5 p-1 text-white">Jeanine Matthews is the leader of the faction Erudite solely because
+                        of her IQ score. She is the
+                        main antagonist in Divergent and Insurgent, and the ringleader behind the Erudite/Dauntless
+                        alliance against the Abnegation. She is one of the overall primary antagonist's (alongside
+                        David)
+                        of the the Divergent Series. She was killed by Tori Wu in the book on and Evelyn Johnson-Eaton
+                        in
+                        the film.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- card-body -->
+            </div>
+            <!-- card -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- /characters -->
+
+  <!-- image card city 2-->
+  <div class="container">
+    <div class="card mb-3">
+      <img src="img/diverg.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text text-dark">The Fringe is the wasteland that surrounds the few inhabited areas in the world
+          of Divergent. </p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div><!-- image card city 2 end-->
+
+  <!-- signup form -->
+  <hr>
+  <div class="row py-4 text-muted mx-auto">
+    <div class="col-md col-xl-5">
+      <p class=""><strong>About <i class="fab fa-dyalog text-danger"></i><strong class="text-danger">J</strong><i
+            class="fas fa-strikethrough text-danger"></i>
+          Creations</strong></p>
+      <p>I am a very passionate Web Creator, a web developer and designer. It simultaneously challenges me,
+        intrigues
+        me
+        and motivates me.</p>
+      <p>I believe we all have greatness within - we just have to grab that ride and see where it takes us . . .
+      </p>
+      <button class="btn btn-warning" type="button"> <a class="btn btn-danger"
+          href="https://djsandscreation.github.io/djsandsCreations006/">My
+          Website</a></button>
+    </div>
+    <div class="col-md col-xl-5 ml-auto">
+      <p><strong>Stay up-to-date with <i class="fab fa-dyalog"></i><strong>J</strong><i
+            class="fas fa-strikethrough"></i></strong> Creations</p>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Email">
+        <span class="input-group-btn">
+          <button class="btn btn-primary" type="button">Sign up</button>
+        </span>
+      </div>
+    </div>
+  </div>
+  <hr><!-- /signup form -->
+
+  <!-- footer -->
+  <div class="row py-3 mx-auto">
+    <div class="col-md-7">
+
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#top">Top</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#jumbo">Sign Up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://en.wikipedia.org/wiki/Divergent_(film)">Wikipedia</a>
+        </li>
+        <li class="nav-item">
+          <!-- split button -->
+          <div class="btn-group dropup">
+            <button type="button" class="btn btn-outline-danger">Characters</button>
+            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#characters">Tris Prior</a>
+              <a class="dropdown-item" href="#charscters">Tobias Eaton</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#characters">Jeanine Matthews</a>
+            </div>
+          </div>
+    </div>
+
+    </li>
+    </ul>
+
+    <div class="col-md text-md-right">
+      <small>&copy; 2020 Divergent &amp; A DJSands Creation</small>
+    </div>
+  </div><!-- /footer -->
+
+
+  </div><!-- /.container -->
+
+  <!--=====================================
+     MODALS
+    =====================================-->
+  <!-- Form Modal -->
+  <div class="modal fade" id="formModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-danger">
+          <h5 class=" modal-title" id="exampleModalCenterTitle">Sign Up</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You are 16!! Register now!!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!-- form -->
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="firstName">First Name:</label>
+                <input type="firstName" class="form-control" id="firstName">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="lastName">Last Name</label>
+                <input type="lastName" class="form-control" id="lastName">
+              </div>
+              <!-- </div> -->
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="faction">Factions</label>
+                  <select id="inputState" class="form-control">
+                    <option>Abnegation</option>
+                    <option>Amity</option>
+                    <option>Candor</option>
+                    <option>Erudite</option>
+                    <option>Dauntless</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="gender">Gender</label>
+                  <select id="inputState" class="form-control">
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Un-answered</option>
+                    <option value="3">Other</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <!-- </div> -->
+
+            <div class="form-group">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+
+
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+
+
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Modal Abnegation -->
+  <div class="modal fade" id="abnegation" tabindex="-1" role="dialog" aria-labelledby="abnegationLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-secondary">
+          <h5 class="modal-title" id="exampleModalLongTitle">Abnegation</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Abnegation is one of the five factions in the world of Divergent. Members from
+            Abnegation value selflessless to the point of forgetting themselves for the sake of others. Their
+            substance in the Choosing Ceremony are smooth gray stones. </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Amity -->
+  <div class="modal fade" id="amity" tabindex="-1" role="dialog" aria-labelledby="amity" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-danger">
+          <h5 class="modal-title" id="exampleModalLongTitle">Amity</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Amity is one of the five factions in the world of Divergent. Members of Amity are
+            dedicated to peacefulness, kindness, forgiveness, trust, self-sufficiency, and neutrality. Amity was
+            formed by those who blamed war and fighting for human nature's faults. Their substance in the
+            Choosing
+            Ceremony is soil, which is symbolic of them doing the farming for all the factions.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Candor -->
+  <div class="modal fade" id="candor" tabindex="-1" role="dialog" aria-labelledby="CandorLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title" id="exampleModalLongTitle">Candor</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Candor is one of the five factions in the world of Divergent, and was formed by
+            those
+            who blamed duplicity and deception for human nature's faults. Because of this, the Candor are known
+            to
+            value honesty, and their symbol is a set of unbalanced scales bound by a circle. Their substance in
+            the
+            Choosing Ceremony is glass. Its faction colors are black and white.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Erudite -->
+  <div class="modal fade" id="erudite" tabindex="-1" role="dialog" aria-labelledby="EruditeLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="exampleModalLongTitle">Erudite</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Erudite is one of the five factions in the world of Divergent, the one and only
+            faction
+            dedicated to knowledge, intelligence, curiosity, and astuteness. It was formed by those who blamed
+            ignorance for the war that had occurred in the past, causing them to split into factions in the
+            first
+            place. Their substance for the Choosing Ceremony is water. Its leader, Jeanine Matthews, is the main
+            antagonist of Divergent and Insurgent.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Factionless -->
+  <div class="modal fade" id="factionless" tabindex="-1" role="dialog" aria-labelledby="FactionlessLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Factionless</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Factionless is a status in which a person is not welcome into any faction. This
+            is
+            described as being homeless and even worse than death itself because the factionless have to suffer.
+            It
+            is
+            a common practice for Abnegation to give food and medical attention to the factionless. It is not
+            desired
+            by any individual to ever be factionless. Some say they would rather die. The factionless are
+            completely
+            impoverished and live in the ruined section of Chicago.</p>
+          <p class="card-text">They don't have a manifesto or a symbol, but some believe that the symbol is an
+            empty
+            circle.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Dauntless -->
+  <div class="modal fade" id="dauntless" tabindex="-1" role="dialog" aria-labelledby="FactionlessLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-warning">
+          <h5 class="modal-title" id="exampleModalLongTitle">Dauntless</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="card-text">Dauntless is one of the five factions in the world of Divergent. They are the
+            faction
+            dedicated to courage, bravery, strength, intimidation, and fearlessness. It was formed by a group of
+            people who blamed fear and cowardice as the cause of problems that society faces, genetic impurity.
+            Dauntless leaders believe that preparation and facing one's own fears is key to overcoming
+            cowardice,
+            initiates, sixteen year olds who have chosen said faction at the yearly choosing ceremony, at
+            Dauntless
+            are worked to both physical and mental breaking points to achieve this. There are technically two
+            'subsets' of Dauntless, one believing in 'freedom from fear', or eradicating fear by performing more
+            and
+            more reckless acts. Another subest believes in 'fear under control', or boldness, standing up and
+            doing
+            things in spite of fear. This subset is generally less extreme, and closer to what the faction
+            originally
+            was. However, the Dauntless leaders at the time of Tris's initiation were mainly aligned with the
+            more
+            extreme 'freedom from fear' subset, which called for more intense training methods. </p>
+          <p class="card-text">Members generally wear provocative or full black leather clothing (or other black
+            materials), piercings, tattoos and are usually seen freerunning through the ruins of Chicago. The
+            last
+            leaders of Dauntless, Eric and Max (Four or Tobias, is often seen as leader of the official
+            Dauntless
+            but
+            is not until the second book when the Dauntless at Candor elect him, Tori Wu and Harrison), are
+            often
+            in
+            dispute of how Dauntless should be lead. Eric claims that initiates should be prepared to die for
+            the
+            faction, preferring much more dangerous tactics of training initiates - whereas Four will discretely
+            go
+            against Eric's methods - such as when he intentionally misses Tris in the knife throwing range after
+            Eric
+            tells her to stand against the target.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script type="text/javascript" src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+    integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
